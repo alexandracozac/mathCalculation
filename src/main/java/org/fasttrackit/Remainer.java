@@ -2,9 +2,15 @@ package org.fasttrackit;
 
 public class Remainer {
 
-    public int remCalc(int a, int b){
+    public double remCalc(double a, double b){
 
         return a % b;
+
+    }
+
+    public double remCalc(double a, double b, double x){
+
+        return (a % b % x);
 
     }
 

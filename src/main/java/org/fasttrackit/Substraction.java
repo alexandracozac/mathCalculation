@@ -2,8 +2,14 @@ package org.fasttrackit;
 
 public class Substraction {
 
-    public int diffCalc(int c, int d){
+    public double diffCalc(double c, double d){
 
        return c - d;
+    }
+
+    public double diffCalc(double c, double d, double e){
+
+        return c - d - e;
+
     }
 }

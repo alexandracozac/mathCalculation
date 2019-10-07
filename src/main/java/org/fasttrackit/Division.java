@@ -2,8 +2,15 @@ package org.fasttrackit;
 
 public class Division {
 
-    public int divCalc(int x, int y){
+    public double divCalc(double x, double y){
 
         return x / y;
+    }
+
+    public double divCalc(double x, double y, double z){
+
+        return (x / y / z);
+
+
     }
 }
